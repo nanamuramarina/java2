@@ -1,4 +1,4 @@
-class Studern {
+class Student {
   // メンバ変数（属性）
   String name;
   int engScore;
@@ -13,7 +13,7 @@ class Studern {
     engScore = eng;
     mathScore = math;
   }
-  double getAve() {
+  double getAvg() {
     double avg = (engScore + mathScore) / 2.0;
     return avg;
   }
